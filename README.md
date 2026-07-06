@@ -50,3 +50,7 @@ The README card specification is maintained in:
 The REST API specification is maintained in:
 
 [docs/API_Specification_v1.0.md](docs/API_Specification_v1.0.md)
+
+The DevDNA Standard specification index is maintained in:
+
+[docs/DDS/README.md](docs/DDS/README.md)
