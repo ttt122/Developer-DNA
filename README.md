@@ -38,3 +38,15 @@ The Genome scoring specification is maintained in:
 The official type system specification is maintained in:
 
 [docs/Type_System_v1.0.md](docs/Type_System_v1.0.md)
+
+The Signal Engine specification is maintained in:
+
+[docs/Signal_Engine_v1.0.md](docs/Signal_Engine_v1.0.md)
+
+The README card specification is maintained in:
+
+[docs/README_Card_Specification_v1.0.md](docs/README_Card_Specification_v1.0.md)
+
+The REST API specification is maintained in:
+
+[docs/API_Specification_v1.0.md](docs/API_Specification_v1.0.md)
