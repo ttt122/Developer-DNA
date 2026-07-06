@@ -54,3 +54,7 @@ The REST API specification is maintained in:
 The DevDNA Standard specification index is maintained in:
 
 [docs/DDS/README.md](docs/DDS/README.md)
+
+The MVP implementation plan is maintained in:
+
+[docs/MVP_Implementation_Plan_v0.1.0.md](docs/MVP_Implementation_Plan_v0.1.0.md)
