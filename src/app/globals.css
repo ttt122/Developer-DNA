@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+:root {
+  --background: #0d1117;
+  --foreground: #f0f6fc;
+  --muted: #8b949e;
+  --panel: #161b22;
+  --panel-border: #30363d;
+  --accent: #39d0ff;
+  --accent-2: #8bffb1;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "Geist", "Geist Fallback", ui-sans-serif, system-ui, sans-serif;
+}
+
+button,
+input {
+  font: inherit;
+}
+
