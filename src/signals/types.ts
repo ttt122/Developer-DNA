@@ -1,0 +1,59 @@
+import type { GenomeDimension } from "@/genome/types";
+
+export type SignalId =
+  | "S01"
+  | "S02"
+  | "S03"
+  | "S04"
+  | "S05"
+  | "S06"
+  | "S07"
+  | "S08"
+  | "S09"
+  | "S10"
+  | "S11"
+  | "S12"
+  | "S13"
+  | "S14"
+  | "S15"
+  | "S16"
+  | "S17"
+  | "S18"
+  | "S19"
+  | "S20"
+  | "S21"
+  | "S22"
+  | "S23"
+  | "S24"
+  | "S25"
+  | "S26"
+  | "S27"
+  | "S28"
+  | "S29"
+  | "S30"
+  | "S31"
+  | "S32"
+  | "S33"
+  | "S34"
+  | "S35"
+  | "S36";
+
+export type SignalDefinition = {
+  id: SignalId;
+  name: string;
+  meaning: string;
+};
+
+export type SignalScore = {
+  id: SignalId;
+  name: string;
+  score: number;
+  confidence: number;
+  explanation: string;
+  rawInputs: Record<string, number | string | boolean | null>;
+};
+
+export type SignalScores = Record<SignalId, SignalScore>;
+
+export type SignalGenomeWeights = Partial<Record<GenomeDimension, number>>;
+
