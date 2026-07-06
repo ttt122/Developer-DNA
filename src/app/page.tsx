@@ -1,3 +1,4 @@
+import { AnalyzeForm } from "@/components/AnalyzeForm";
 import { Dna } from "lucide-react";
 
 export default function Home() {
@@ -14,24 +15,8 @@ export default function Home() {
           </div>
         </header>
 
-        <div className="rounded-lg border border-[var(--panel-border)] bg-[var(--panel)] p-6">
-          <p className="max-w-2xl text-lg text-[var(--foreground)]">
-            Analyze public GitHub activity into behavior signals, Genome
-            scores, and a shareable Developer DNA type.
-          </p>
-          <div className="mt-6 flex flex-col gap-3 sm:flex-row">
-            <input
-              className="min-h-11 flex-1 rounded-md border border-[var(--panel-border)] bg-[#0d1117] px-3 text-[var(--foreground)] outline-none ring-0 placeholder:text-[var(--muted)] focus:border-[var(--accent)]"
-              placeholder="GitHub username"
-              aria-label="GitHub username"
-            />
-            <button className="min-h-11 rounded-md bg-[var(--accent)] px-5 font-medium text-[#061018]">
-              Analyze
-            </button>
-          </div>
-        </div>
+        <AnalyzeForm />
       </section>
     </main>
   );
 }
-
