@@ -34,3 +34,7 @@ The canonical project specification is maintained in:
 The Genome scoring specification is maintained in:
 
 [docs/Genome_Scoring_v0.1.0.md](docs/Genome_Scoring_v0.1.0.md)
+
+The official type system specification is maintained in:
+
+[docs/Type_System_v1.0.md](docs/Type_System_v1.0.md)
